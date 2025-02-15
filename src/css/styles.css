@@ -133,11 +133,17 @@ img {
 
 .sl-close:hover {
   transform: scale(1.1);
+  background: none;
 }
 
 .sl-next,
 .sl-prev {
   color: #fff !important;
+}
+
+.sl-next:hover,
+.sl-prev:hover {
+  background: none;
 }
 
 .sl-counter {
